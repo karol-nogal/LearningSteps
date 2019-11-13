@@ -1,0 +1,112 @@
+body {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    min-height: 10rem;
+}
+
+.item {
+    margin: 10px;
+}
+
+.container--cards-1 .item {
+    background-color: blue;
+   
+
+}
+
+.container--cards-2 .item {
+    background-color: green;
+   
+}
+
+
+.container--cards-3 .item {
+    background-color: red;
+    
+}
+
+.card {
+    padding: 15px;
+}
+
+.card span {
+    font-size: 40px;
+}
+
+.container--cards-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container--cards-3 .item--1{
+align-self: flex-start;
+}
+.container--cards-3 .item--2{
+=======
+.container--cards-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container--cards-3 .item--1 {
+    align-self: flex-start;
+}
+
+.container--cards-3 .item--2 {
+>>>>>>> 6b4c2801afa29e10f8a2766dbc4ef5b5461f9623
+    align-self: flex-end;
+}
+
+.container--cards-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container--cards-1 .item--1{
+    order: -1;
+    align-self: flex-start;
+}
+.container--cards-1 .item--2{
+    order: -2;
+}
+.container--cards-1 .item--3{
+    flex-basis: 100px
+}
+
+
+
+.container--cards-2 {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+} 
+
+
+.container--cards-2 .item--3{
+    order: 1;
+    align-self: stretch;
+}
+
+<<<<<<< HEAD
+.container--cards-2 .item--4{
+    order: -1;
+    align-self: stretch;
+}
+.container--cards-2 .item--2{
+align-self: flex-start;
+}
+
+
+

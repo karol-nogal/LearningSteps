@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.item {
+    margin: 10px;
+    background-color: blue;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card span {
+    font-size: 20px;
+}
+
+.container {
+    min-height: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: "one two three"
+                         "four five six";
+}
+
+.item--1{
+    grid-area: one;
+
+}
+
+.item--2{
+    grid-area: two;
+}
+
+.item--3{
+    grid-area: three;
+}
+
+.item--4{
+    grid-area: four;
+}
+
+.item--5{
+    grid-area: five;
+}
+
+.item--6{
+    grid-area: six;
+}
+

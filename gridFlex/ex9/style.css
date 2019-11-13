@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.item {
+    margin: 10px;
+}
+
+.container--cards-1 .item {
+    background-color: blue;
+}
+
+.container--cards-2 .item {
+    background-color: green;
+}
+
+.container--cards-3 .item {
+    background-color: red;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card span {
+    font-size: 40px;
+}
+
+.container {
+    min-height: 10rem;
+}
+
+.container--cards-1 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas: "one two three . "
+           "one two four . ";
+}
+.container--cards-1 .item--1{
+    grid-area: one;
+}
+
+.container--cards-1 .item--2{
+    grid-area: two;
+}
+.container--cards-1 .item--3{
+    grid-area: three;
+}
+.container--cards-1 .item--4{
+    grid-area: four;
+}
+
+.container--cards-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"ones ones ones"
+                        "twos twos threes"
+                        "fours fives threes"    
+}
+
+.container--cards-2 .item--1{
+    grid-area: ones;
+}
+
+.container--cards-2 .item--2{
+    grid-area: twos;
+}
+.container--cards-2 .item--3{
+    grid-area: threes;
+}
+.container--cards-2 .item--4{
+    grid-area: fours;
+}
+.container--cards-2 .item--5{
+    grid-area: fives;
+}
+
+.container--cards-2 .item--6{
+    grid-area: sixs;
+}
+
+
+
+
+
+
+
+.container--cards-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "oned twod"
+                         "oned threed";
+}
+.container--cards-3 .item--1{
+    grid-area: oned;
+}
+
+.container--cards-3 .item--2{
+    grid-area: twod;
+}

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: red;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 1fr 1fr;
+  grid-template-rows: 100px 1fr 50px 50px ;
+  grid-template-areas: "logo fiolet zebra zielony"
+                        ". fiolet zebra zielony"
+                        ". fiolet zebra szary"
+                        "niebieski niebieski zebra szary";
+  border: 2px solid red;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  background-color: pink;
+  grid-area: logo;
+}
+
+.text {
+  background-color: rebeccapurple;
+  grid-area: fiolet;
+  position: relative;
+  
+}
+
+.text__headline {
+  position: absolute;
+  font-size: 50px;
+  transform: rotate(-90deg);
+  bottom: 0px;
+  left: 150px;
+  top: 45%;
+  color: black;
+  
+}
+
+.image {
+  grid-area: zebra;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position-x: center;
+}
+
+.menu {
+  background-color: green;
+  grid-area: zielony;
+}
+
+.footer {
+  background-color: gray;
+  grid-area: szary;
+}
+
+.sidebar {
+  background-color: blue;
+  grid-area: niebieski;
+}

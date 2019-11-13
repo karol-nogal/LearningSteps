@@ -1,0 +1,85 @@
+body {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.item {
+    margin: 10px;
+    background-color: blue;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card span {
+    font-size: 40px;
+}
+
+.container {
+    min-height: 10rem;
+    display: grid;
+<<<<<<< HEAD
+    grid-template-columns: 100px 1fr  1fr 100px;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.item--1{
+    grid-area: 1/1/4/2;
+
+}
+.item--2{
+    grid-area: 1/2/2/3;
+
+}
+.item--3{
+    grid-area: 1/3/2/5;
+
+}
+.item--4{
+    grid-area: 2/2/4/4;
+
+}
+.item--5{
+    grid-area: 2/4/3/5
+
+}
+.item--6{
+    grid-area: 3/4/4/5
+
+=======
+    grid-template-columns: 100px 1fr 1fr 100px;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:    "one two three three"
+                            "one four four five"
+                            "one four four six";
+}
+
+.item--1 {
+    grid-area: one;
+}
+
+.item--2 {
+    grid-area: two;
+}
+
+.item--3 {
+    grid-area: three;
+}
+
+.item--4 {
+    grid-area: four;
+}
+
+.item--5 {
+    grid-area: five;
+}
+
+.item--6 {
+    grid-area: six;
+>>>>>>> 6b4c2801afa29e10f8a2766dbc4ef5b5461f9623
+}
+
+

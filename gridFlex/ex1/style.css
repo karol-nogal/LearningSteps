@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    max-width: 1200px;
+    margin: 10px;
+    
+    
+}
+
+.container {
+    display: flex;
+<<<<<<< HEAD
+=======
+    flex-direction: row;
+>>>>>>> 6b4c2801afa29e10f8a2766dbc4ef5b5461f9623
+    justify-content: space-between;
+    align-items: flex-end;
+    min-height: 10rem;
+
+}
+
+.item {
+    margin: 10px;
+    background-color: blue;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card span {
+    font-size: 40px;
+}
+
+

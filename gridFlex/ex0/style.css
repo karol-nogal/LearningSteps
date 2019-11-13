@@ -1,0 +1,34 @@
+body {
+  
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+.container {
+    border: 1px solid gray;
+}
+
+.item {
+    background-color: blue;
+    margin: 10px;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card span {
+    font-size: 40px;
+}
+
+.item--2 {
+    position: sticky;
+    top: 0;
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
+

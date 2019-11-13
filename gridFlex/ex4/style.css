@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    max-width: 1200px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    min-height: 10rem;
+<<<<<<< HEAD
+    align-items: center;   
+=======
+    align-items: center;
+>>>>>>> 6b4c2801afa29e10f8a2766dbc4ef5b5461f9623
+}
+
+.item {
+    flex-grow: 1;
+    margin: 10px;
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card span {
+    font-size: 40px;
+}
+ .item--3{
+     order: -3;
+     flex-grow: 3;
+
+ }
+
+<<<<<<< HEAD
+ .item--6{
+     align-self: stretch;
+ }
+=======
+.item--3 {
+    flex-grow: 3;
+    order: -1;
+}
+>>>>>>> 6b4c2801afa29e10f8a2766dbc4ef5b5461f9623
+
+.item--6 {
+    align-self: stretch;
+}

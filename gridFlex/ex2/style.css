@@ -1,0 +1,28 @@
+body {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 10rem;
+    flex-direction: column-reverse;
+}
+
+.item {
+    margin: 10px;
+    background-color: blue;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card span {
+    font-size: 40px;
+}
+
+
