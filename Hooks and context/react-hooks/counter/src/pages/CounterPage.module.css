@@ -1,0 +1,13 @@
+.container {
+  margin: 30px;
+}
+
+.counter {
+  font-size: 60px;
+}
+
+.button {
+  margin-top: 50px;
+  width: 300px;
+  font-size: 30px;
+}

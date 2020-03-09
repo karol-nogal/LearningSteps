@@ -1,0 +1,23 @@
+.input {
+  width: 300px;
+  height: 40px;
+  font-size: 28px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldLabel {
+  margin-bottom: 10px;
+}
+
+.button {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.confirmationMessage {
+  margin-top: 10px;
+}

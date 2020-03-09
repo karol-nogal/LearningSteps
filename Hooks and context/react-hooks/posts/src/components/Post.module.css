@@ -1,0 +1,10 @@
+.container {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.id {
+  margin-right: 10px;
+  font-weight: bold;
+}
